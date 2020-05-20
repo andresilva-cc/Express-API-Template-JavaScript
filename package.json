@@ -1,0 +1,54 @@
+{
+  "name": "express-api-template-javascript",
+  "version": "1.0.0",
+  "description": "Express API Template (JavaScript)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec sucrase-node ./src/index.js",
+    "start": "node ./dist/index.js",
+    "build": "sucrase ./src -d ./dist --transforms imports"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andresilva-cc/Express-API-Template-JavaScript.git"
+  },
+  "keywords": [
+    "express",
+    "api",
+    "template",
+    "javascript",
+    "node"
+  ],
+  "author": "André Luiz da Silva (andreluiz.97@outlook.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andresilva-cc/Express-API-Template-JavaScript/issues"
+  },
+  "homepage": "https://github.com/andresilva-cc/Express-API-Template-JavaScript#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "nodemon": "^2.0.4",
+    "sequelize-cli": "^5.5.1",
+    "sucrase": "^3.15.0"
+  },
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "chalk": "^4.0.0",
+    "cors": "^2.8.5",
+    "crypto-random-string": "^3.2.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "log-symbols": "^4.0.0",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.4.6",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "pg": "^8.2.1",
+    "sequelize": "^5.21.9"
+  }
+}
