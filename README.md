@@ -23,3 +23,8 @@ This project has the purpose to serve as a template for future Express-based API
 ## Setup
 
 TODO
+
+## Todo
+
+- Implement createMany, updateMany and deleteMany in BaseRepository
+- Separate custom errors into classes
