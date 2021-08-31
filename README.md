@@ -1,3 +1,5 @@
+**!!! This repository is archived, check the new repository: [andresilva-cc/express-api-template](https://github.com/andresilva-cc/express-api-template) !!!**
+
 # Express API Template (JavaScript)
 
 ## Description
